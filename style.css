@@ -192,12 +192,17 @@ ul li a {
     margin: 0;
     padding: 0;
 
-    font-size: 6vw;
+    font-size: 4vw;
 
     position: absolute;
     top: 70%;
     left: 30%;
+
+}
+
+#om b {
     font-family: 'Reenie Beanie', cursive;
+    font-size: 6vw;
 }
 
 #om #om_txt {
@@ -249,7 +254,75 @@ ul li a {
 }
 
 
-/*------ PORITOLIO ------*/
+
+/*------ PORTFOLIO ------*/
+
+#projects {
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(pics/background_chalk.jpg);
+    background-size: cover;
+    position: absolute;
+
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+
+}
+
+#project_dark{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#projects h2 {
+    font-size: 4vw;
+    text-align: center;
+    margin: 0;
+}
+
+#projects p {
+
+    font-size: 2vw;
+    margin: 0;
+}
+
+
+.container{
+
+    width: 21vw;
+    height: 15vw;
+
+    position: absolute;
+    padding: 0vw 1vw;
+
+    border: 0.1vw solid rgba(255,255,255,0.7)
+
+}
+
+#box_1{
+    top: 35%;
+    left: 3%
+}
+
+
+#box_2{
+    top: 35%;
+    left: 27%
+}
+
+#box_3{
+    top: 35%;
+    right: 27%
+}
+
+#box_4{
+    top: 35%;
+    right: 3%
+}
+
 
 
 /*------ ANIMATIONS ------*/
@@ -386,14 +459,19 @@ ul li a {
 
     #om ul {
 
-        font-size: 2vw;
-        top: 60%;
+        font-size: 1.5vw;
+        top: 64%;
         left: 50%;
     }
 
+    #om b {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2vw;
+}
+
     #om #om_txt {
         font-size: 1.5vw;
-        line-height: 2.5vw;
+        line-height: 2.8vw;
 
         width: 30%;
         height: 50%;
