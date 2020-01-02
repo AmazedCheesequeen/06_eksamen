@@ -4,6 +4,10 @@
 
 body {
     margin: 0;
+    background-image: url(pics/background_wood.jpg);
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
 }
 
 /*------ GENERAL STUFF ------*/
@@ -387,6 +391,11 @@ ul li a {
 .container:hover h2 {
     display: none;
 }
+
+/*------ TEMA 2 ------*/
+
+
+
 
 /*------ NAV BAR ------*/
 
