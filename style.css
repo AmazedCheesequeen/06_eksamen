@@ -266,7 +266,7 @@ ul li a {
     position: absolute;
 
     color: white;
-    font-family: 'Reenie Beanie', cursive;
+    font-family:'Dosis', sans-serif;
 
 }
 
@@ -277,6 +277,16 @@ ul li a {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+#projects h1 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 7vw;
+
+    margin: 2vw 0 0 0;
+    padding: 0;
+
+    text-align: center;
+}
+
 #projects h2 {
     font-size: 4vw;
     text-align: center;
@@ -284,12 +294,20 @@ ul li a {
 
     text-align: center;
     vertical-align: middle;
+    font-family: 'Reenie Beanie', cursive;
     line-height: 21vw;
 }
 
 #projects p {
 
-    font-size: 2vw;
+    font-size: 1.5vw;
+    margin: 1.3vw;
+
+}
+
+#project_about {
+    text-align: center;
+    font-size: 1.5vw;
     margin: 1.3vw;
 }
 
@@ -304,6 +322,7 @@ ul li a {
 
     border: 0.1vw solid rgba(255, 255, 255, 0.7)
 }
+
 
 #box_1 {
     top: 35%;
@@ -337,26 +356,28 @@ ul li a {
 }
 
 .project_btn {
-    font-size: 1.7vw;
-    border-top: white dashed 0.1vw;
+    font-size: 2vw;
+    border: white dashed 0.1vw;
     text-align: center;
-    margin: 1.5vw;
+    margin: 5vw;
+
+    font-family: 'Reenie Beanie', cursive;
 }
 
-#box_1:hover{
-    background-color: rgba(232, 216, 69, 0.3);
+#box_1:hover {
+    background-color: rgba(228, 241, 17, 0.3);
 }
 
-#box_2:hover{
-    background-color: rgba(232, 69, 69, 0.3);
+#box_2:hover {
+    background-color: rgba(154,246,47, 0.3);
 }
 
-#box_3:hover{
-    background-color: rgba(60, 191, 24, 0.3);
+#box_3:hover {
+    background-color: rgba(87, 246, 178, 0.3);
 }
 
-#box_4:hover{
-    background-color: rgba(37, 212, 228, 0.3);
+#box_4:hover {
+    background-color: rgba(122, 197, 205, 0.3);
 }
 
 .container:hover .hover_project {
@@ -366,6 +387,10 @@ ul li a {
 .container:hover h2 {
     display: none;
 }
+
+/*------ NAV BAR ------*/
+
+
 
 
 
