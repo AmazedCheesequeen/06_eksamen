@@ -11,6 +11,10 @@ body {
     background-size: cover;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*------ GENERAL STUFF ------*/
 
 section {
@@ -180,7 +184,7 @@ section {
 }
 
 #om img:hover #arrow_txt {
-     color: #ee7320;
+    color: #ee7320;
 }
 
 #om #om_arrow {
@@ -360,7 +364,7 @@ section {
 }
 
 #tema_2_btn {
-    margin:5vw;
+    margin: 5vw;
 }
 
 #tema_3_btn {
@@ -544,11 +548,7 @@ section {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#tema_3 .wrapper{
-    display: flex;
-    flex-direction:column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+#tema_3 .wrapper {
     width: 70vw;
     margin: 0 15vw;
     ;
@@ -560,7 +560,7 @@ section {
 
 }
 
-#tema_3 .container_tema_3{
+#tema_3 .container_tema_3 {
 
     flex-grow: 1;
     flex-basis: 32vw;
@@ -568,7 +568,48 @@ section {
     padding: 0;
 
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
+
+#tema_3 .col {
+    flex-grow: 1;
+    flex-basis: 32vw;
+    margin: 0;
+    padding: 0;
+}
+#tema_3 #prototype img {
+    width: 20vw;
+    float: right;
+}
+#tema_3 .overview li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2vw;
+    display: inline-block;
+    padding: 0vw 1vw;
+
+    border: 0.1vw dashed white;
+    margin: 0.2vw;
+}
+
+#tema_3 .overview {
+    list-style-type: none;
+    text-align: center;
+}
+
+#tema_3 .overview li {
+    display: inline;
+}
+
+#tema_3 .overview li a:hover {
+    background-color: rgba(154, 246, 47, 0.3);
+
+    font-weight: bold;
+}
+
 
 /*------ NAV BAR ------*/
 
@@ -786,7 +827,7 @@ section {
     }
 
 
-    }
+}
 
 
 }
