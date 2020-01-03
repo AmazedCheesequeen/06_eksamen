@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-image: url(pics/background_wood.jpg);
     width: 100vw;
     height: 100%;
@@ -262,12 +263,8 @@ ul li a {
 /*------ PORTFOLIO ------*/
 
 #projects {
-
     width: 100vw;
-    height: 100vh;
-    background-image: url(pics/background_chalk.jpg);
-    background-size: cover;
-    position: absolute;
+    height: 100%;
 
     color: white;
     font-family:'Dosis', sans-serif;
@@ -393,6 +390,88 @@ ul li a {
 }
 
 /*------ TEMA 2 ------*/
+
+#tema_2 {
+
+    color: white;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+#tema_2 h1{
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4vw;
+    margin: 0.2vw;
+
+}
+
+#tema_2 h1{
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4vw;
+
+}
+
+#tema_2 h2{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3.5vw;
+    margin: 0;
+    padding: 0;
+
+}
+
+#tema_2 .dark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#tema_2 .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    width: 70vw;
+    margin: 0 15vw;;
+    padding: 2vw;;
+
+    border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
+    border-right: 0.1vw dashed rgba(255, 255, 255, 0.7);
+
+}
+
+#tema_2 .col{
+    flex-grow: 1;
+    flex-basis: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+#tema_2 img{
+    width: 25vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+}
+
+#tema_2 a {
+    text-decoration: none;
+    color: white;
+    margin: 7vw;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.5vw;
+    padding: 1vw;
+
+    border: 0.1vw dashed white;
+
+}
+
+#tema_2 a:hover {
+    background-color: rgba(228, 241, 17, 0.3);
+}
 
 
 
