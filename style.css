@@ -179,6 +179,10 @@ section {
     transform: rotate(-35deg);
 }
 
+#om img:hover #arrow_txt {
+     color: #ee7320;
+}
+
 #om #om_arrow {
     background-image: url(arrows/arrow-01.svg);
     width: 10vw;
@@ -234,10 +238,10 @@ section {
 
 }
 
-#om .back_arrow {
-    background-image: url(arrows/arrow_pil_2.svg);
+#om .heart {
+    background-image: url(heart/heart_heart_face.svg);
     width: 8vw;
-    height: 8vw;
+    height: 7vw;
     background-size: cover;
 
     position: absolute;
@@ -245,17 +249,8 @@ section {
     left: 8%;
 
     transform: rotate(35deg);
-}
 
-#om .go_back_txt {
-    font-size: 4.5vw;
-    font-family: 'Reenie Beanie', cursive;
-
-
-    position: absolute;
-    top: 16%;
-    left: 18%;
-
+    display: none;
 }
 
 
@@ -360,10 +355,26 @@ section {
     font-size: 2vw;
     border: white dashed 0.1vw;
     text-align: center;
-    margin: 5vw;
 
     font-family: 'Reenie Beanie', cursive;
 }
+
+#tema_2_btn {
+    margin:5vw;
+}
+
+#tema_3_btn {
+    margin: 3vw 5vw;
+}
+
+#tema_4_btn {
+    margin: 7vw 5vw;
+}
+
+#tema_5_btn {
+    margin: 5vw;
+}
+
 
 #box_1:hover {
     background-color: rgba(228, 241, 17, 0.3);
@@ -431,7 +442,7 @@ section {
 
 #tema_2 .dark {
     width: 100%;
-    height: 110%;
+    height: 120%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -455,7 +466,7 @@ section {
 
 #tema_2 .col {
     flex-grow: 1;
-    flex-basis: 20vw;
+    flex-basis: 32vw;
     margin: 0;
     padding: 0;
 }
@@ -495,7 +506,6 @@ section {
     overflow: hidden;
     width: 100vw;
 
-
 }
 
 #normal_nav ul {
@@ -515,6 +525,17 @@ section {
     padding: 0vw 1vw;
 }
 
+#nav_start:hover {
+    color: #e55757;
+}
+
+#nav_om:hover {
+    color: #ee7320;
+}
+
+#nav_projects:hover {
+    color: #fcc21b;
+}
 
 
 
@@ -682,20 +703,17 @@ section {
 
     }
 
-    #om .back_arrow {
-        width: 4vw;
-        height: 4vw;
+    #om .heart {
+        display: block;
+        width: 5vw;
+        height: 4.38vw;
 
-        top: 4%;
+        top: 5%;
         left: 15%;
 
-        transform: rotate(35deg);
+        transform: rotate(-35deg);
     }
 
-    #om .go_back_txt {
-        font-size: 2.3vw;
-        top: 6%;
-        left: 20%;
 
     }
 
