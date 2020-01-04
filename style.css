@@ -23,6 +23,41 @@ section {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 4vw;
+    margin: 0.2vw;
+
+}
+
+
+h2 {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3.5vw;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-size: 1.2vw;
+    line-height: 1.6vw;
+}
+
+b {
+    font-size: 1.2vw;
+}
+
+.link{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.1vw dashed white;
+    padding-bottom: 0.1vw;
+}
+
+
 /*------ NAV BAR ------*/
 
 /*------ INDEX SITE ------*/
@@ -57,6 +92,10 @@ section {
 
     margin: 0;
     padding: 0;
+
+    font-size: 10vw;
+
+    font-family: 'Reenie Beanie', cursive;
 
 }
 
@@ -161,7 +200,7 @@ section {
     line-height: 1vw;
 }
 
-#om h1 {
+#om #om_title {
     font-family: 'Reenie Beanie', cursive;
     font-size: 15vw;
     top: 20%;
@@ -415,34 +454,6 @@ section {
 
 }
 
-#tema_2 h1 {
-    text-align: center;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 4vw;
-    margin: 0.2vw;
-
-}
-
-#tema_2 h1 {
-    text-align: center;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 4vw;
-    margin-top: 2vw;
-
-}
-
-#tema_2 h2 {
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 3.5vw;
-    margin: 0;
-    padding: 0;
-
-}
-
-#tema_2 p {
-    font-size: 1.2vw;
-    line-height: 1.6vw;
-}
 
 #tema_2 .dark {
     width: 100%;
@@ -459,9 +470,7 @@ section {
     justify-content: space-around;
     width: 70vw;
     margin: 0 15vw;
-    ;
     padding: 2vw;
-    ;
 
     border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
     border-right: 0.1vw dashed rgba(255, 255, 255, 0.7);
@@ -512,34 +521,6 @@ section {
 
 }
 
-#tema_3 h1 {
-    text-align: center;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 4vw;
-    margin: 0.2vw;
-
-}
-
-#tema_3 h1 {
-    text-align: center;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 4vw;
-    margin-top: 2vw;
-
-}
-
-#tema_3 h2 {
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 3.5vw;
-    margin: 0;
-    padding: 0;
-
-}
-
-#tema_3 p {
-    font-size: 1.2vw;
-    line-height: 1.6vw;
-}
 
 #tema_3 .dark {
     width: 100%;
@@ -551,9 +532,7 @@ section {
 #tema_3 .wrapper {
     width: 70vw;
     margin: 0 15vw;
-    ;
     padding: 2vw;
-    ;
 
     border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
     border-right: 0.1vw dashed rgba(255, 255, 255, 0.7);
@@ -573,14 +552,6 @@ section {
     justify-content: space-around;
 }
 
-.link{
-    font-size: 1.2vw;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    border-bottom: 0.1vw dashed white;
-    padding-bottom: 0.1vw;
-}
 
 #tema_3 .link:hover{
     color: #9af62f;
@@ -609,19 +580,7 @@ section {
     margin-bottom: 2vw;
 }
 
-#tema_3 #designsprint a{
-    font-size: 1.2vw;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    border-bottom: 0.1vw dashed white;
-    padding-bottom: 0.1vw;
-}
 
-#tema_3 #designsprint a:hover{
-    color: #9af62f;
-    border-bottom: 0.1vw dashed #9af62f;
-}
 
 #tema_3 .tema3_btn {
     text-decoration: none;
@@ -652,34 +611,6 @@ section {
 
 }
 
-#tema_4 h1 {
-    text-align: center;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 4vw;
-    margin: 0.2vw;
-
-}
-
-#tema_4 h1 {
-    text-align: center;
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 4vw;
-    margin-top: 2vw;
-
-}
-
-#tema_4 h2 {
-    font-family: 'Reenie Beanie', cursive;
-    font-size: 3.5vw;
-    margin: 0;
-    padding: 0;
-
-}
-
-#tema_4 p {
-    font-size: 1.2vw;
-    line-height: 1.6vw;
-}
 
 #tema_4 .dark {
     width: 100%;
@@ -700,27 +631,19 @@ section {
 
 }
 
+#tema_4 .link:hover{
+    color: #57f6b2;
+    border-bottom: 0.1vw dashed #57f6b2;
+}
+
 #tema_4 #mygame img {
     width: 50vw;
     margin: 0 8vw 2vw;
 
 }
 
-#tema_4 #mygame a{
-    font-size: 1.2vw;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-    border-bottom: 0.1vw dashed white;
-    padding-bottom: 0.1vw;
-}
 
-#tema_4 #mygame a:hover{
-    color: #9af62f;
-    border-bottom: 0.1vw dashed #9af62f;
-}
-
-#tema_4 #mygame .tema_4_btn{
+.tema_4_btn{
 
     text-decoration: none;
     color: white;
@@ -735,8 +658,8 @@ section {
     border: 0.1vw dashed white;
 }
 
-#tema_4 #mygame a:hover{
-    background-color: rgba(154, 246, 47, 0.3);
+.tema_4_btn:hover{
+    background-color: rgba(87, 246, 178, 0.3);
 
     font-weight: bold;
 }
@@ -871,7 +794,7 @@ section {
     /*--- SPLASH ----*/
 
     #splash {
-        font-size: 5vw;
+        font-size: 7vw;
     }
 
     #splash_image {
@@ -881,6 +804,8 @@ section {
     #splash_txt {
         top: 5%;
         left: 49%;
+
+        font-size: 7vw;
 
     }
 
@@ -925,9 +850,9 @@ section {
         background-position: 0% 40%;
     }
 
-    #om h1 {
+    #om #om_title {
         font-size: 7vw;
-        top: -2vw;
+        top: 4vw;
         left: 50%;
 
     }
