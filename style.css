@@ -19,7 +19,7 @@ html {
 
 section {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     padding: 0;
 }
 
@@ -49,7 +49,7 @@ b {
     font-size: 1.2vw;
 }
 
-.link{
+.link {
     font-size: 1.2vw;
     text-decoration: none;
     color: white;
@@ -553,12 +553,12 @@ b {
 }
 
 
-#tema_3 .link:hover{
+#tema_3 .link:hover {
     color: #9af62f;
     border-bottom: 0.1vw dashed #9af62f;
 }
 
-#tema_3 #dataindsamling{
+#tema_3 #dataindsamling {
     margin: 0 0 2vw 0;
 }
 
@@ -568,6 +568,7 @@ b {
     margin: 0;
     padding: 0;
 }
+
 #tema_3 #prototype img {
     width: 20vw;
     margin-left: 6vw;
@@ -594,7 +595,7 @@ b {
     border: 0.1vw dashed white;
 }
 
-#tema_3 .tema3_btn:hover{
+#tema_3 .tema3_btn:hover {
     background-color: rgba(154, 246, 47, 0.3);
 
     font-weight: bold;
@@ -614,7 +615,7 @@ b {
 
 #tema_4 .dark {
     width: 100%;
-    height: 470%;
+    height: 350%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -631,7 +632,11 @@ b {
 
 }
 
-#tema_4 .link:hover{
+#tema_4 #groupgame{
+    margin-top: 5vw;
+}
+
+#tema_4 .link:hover {
     color: #57f6b2;
     border-bottom: 0.1vw dashed #57f6b2;
 }
@@ -642,8 +647,14 @@ b {
 
 }
 
+#tema_4 #groupgame img {
+    width: 50vw;
+    margin: 0 8vw 2vw;
+}
 
-.tema_4_btn{
+
+
+.tema_4_btn {
 
     text-decoration: none;
     color: white;
@@ -652,17 +663,29 @@ b {
     font-size: 1.5vw;
     padding: 1vw;
 
-    position: absolute;
-    left: 46%;
-
     border: 0.1vw dashed white;
 }
 
-.tema_4_btn:hover{
+.tema_4_btn:hover {
     background-color: rgba(87, 246, 178, 0.3);
 
     font-weight: bold;
 }
+
+#mygame_btn{
+    position: absolute;
+    left: 46%;
+}
+
+.buttons{
+    left: 40%;
+    position: absolute;
+}
+
+#groupgame_btn{
+    margin-right: 1vw;
+}
+
 
 /*------ OVERVIEW ------*/
 
@@ -678,7 +701,7 @@ b {
     margin: 0.2vw;
 }
 
- .overview {
+.overview {
     list-style-type: none;
     text-align: center;
 }
@@ -694,7 +717,7 @@ b {
 }
 
 #tema_4 .overview li a:hover {
-     background-color: rgba(87, 246, 178, 0.3);
+    background-color: rgba(87, 246, 178, 0.3);
 
     font-weight: bold;
 }
