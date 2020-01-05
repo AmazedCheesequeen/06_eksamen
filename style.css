@@ -19,7 +19,7 @@ html {
 
 section {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     padding: 0;
 }
 
@@ -623,9 +623,7 @@ b {
 #tema_4 .wrapper {
     width: 70vw;
     margin: 0 15vw;
-    ;
     padding: 2vw;
-    ;
 
     border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
     border-right: 0.1vw dashed rgba(255, 255, 255, 0.7);
@@ -685,6 +683,50 @@ b {
 #groupgame_btn{
     margin-right: 1vw;
 }
+
+/*------ TEMA 5 ------*/
+#tema_5 {
+
+    color: white;
+    font-family: 'Dosis', sans-serif;
+
+    overflow: hidden;
+
+}
+
+
+#tema_5 .dark {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+#tema_5 .wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    width: 70vw;
+    margin: 0 15vw;
+    padding: 2vw;
+
+    border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
+    border-right: 0.1vw dashed rgba(255, 255, 255, 0.7);
+
+}
+
+
+#tema_5 .col {
+    flex-grow: 1;
+    flex-basis: 32vw;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 /*------ OVERVIEW ------*/
