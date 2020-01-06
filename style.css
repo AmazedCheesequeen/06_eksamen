@@ -26,7 +26,7 @@ section {
 h1 {
     text-align: center;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 4vw;
+    font-size: 10vw;
     margin: 0.2vw;
 
 }
@@ -34,27 +34,27 @@ h1 {
 
 h2 {
     font-family: 'Reenie Beanie', cursive;
-    font-size: 3.5vw;
+    font-size: 8vw;
     margin: 0;
     padding: 0;
 
 }
 
 p {
-    font-size: 1.2vw;
-    line-height: 1.6vw;
+    font-size: 4vw;
+    line-height: 5vw;
 }
 
 b {
-    font-size: 1.2vw;
+    font-size: 4vw;
 }
 
 i {
-    font-size: 1.2vw;
+    font-size: 4vw;
 }
 
 .link {
-    font-size: 1.2vw;
+    font-size: 4vw;
     text-decoration: none;
     color: white;
     border-bottom: 0.1vw dashed white;
@@ -97,7 +97,7 @@ i {
     margin: 0;
     padding: 0;
 
-    font-size: 10vw;
+    font-size: 18vw;
 
     font-family: 'Reenie Beanie', cursive;
 
@@ -120,7 +120,7 @@ i {
     margin: 0;
     padding: 0;
 
-    top: 45vw;
+    top: 50vw;
     left: 15%;
 
     list-style-type: none;
@@ -129,7 +129,7 @@ i {
 
 
 #big_list {
-    font-size: 12vw;
+    font-size: 13vw;
 }
 
 
@@ -145,14 +145,14 @@ i {
     margin: 0;
     padding: 0;
 
-    top: 45vw;
+    top: 50vw;
     left: 25%;
 
     list-style-type: none;
 }
 
-#splash_nav#lil_list {
-    font-size: 10vw;
+#splash_nav #lil_list {
+    font-size: 12vw;
 
 }
 
@@ -207,7 +207,7 @@ i {
 #om #om_title {
     font-family: 'Reenie Beanie', cursive;
     font-size: 15vw;
-    top: 20%;
+    top: 27%;
     left: 9%;
 
     position: absolute;
@@ -248,12 +248,16 @@ i {
     margin: 0;
     padding: 0;
 
-    font-size: 4vw;
+    font-size: 6vw;
 
     position: absolute;
     top: 70%;
     left: 30%;
 
+}
+
+#om ul li p {
+    font-size: 4vw;
 }
 
 #om b {
@@ -461,7 +465,7 @@ i {
 
 #tema_2 .dark {
     width: 100%;
-    height: 120%;
+    height: 170%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -472,9 +476,9 @@ i {
     flex-direction: row;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
-    width: 70vw;
-    margin: 0 15vw;
-    padding: 2vw;
+    width: 100vw;
+    margin: 0;
+    padding: 4vw;
 
     border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
     border-right: 0.1vw dashed rgba(255, 255, 255, 0.7);
@@ -483,24 +487,23 @@ i {
 
 #tema_2 .col {
     flex-grow: 1;
-    flex-basis: 32vw;
-    margin: 0;
+    flex-basis: 50vw;
+    margin: 5vw 0;
     padding: 0;
 }
 
 #tema_2 img {
-    width: 25vw;
+    width: 90vw;
     margin-bottom: 2vw;
-    margin-left: 2vw;
 }
 
 #tema_2 a {
     text-decoration: none;
     color: white;
-    margin: 7vw;
+    margin: 18vw;
     text-align: center;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 1.5vw;
+    font-size: 5vw;
     padding: 1vw;
 
     border: 0.1vw dashed white;
@@ -528,14 +531,14 @@ i {
 
 #tema_3 .dark {
     width: 100%;
-    height: 470%;
+    height: 560%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 #tema_3 .wrapper {
-    width: 70vw;
-    margin: 0 15vw;
+    width: 100vw;
+    margin: 0vw;
     padding: 2vw;
 
     border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
@@ -547,12 +550,12 @@ i {
 
     flex-grow: 1;
     flex-basis: 32vw;
-    margin: 2vw 0 2vw 0;
+    margin: 5vw 0;
     padding: 0;
 
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -568,21 +571,23 @@ i {
 
 #tema_3 .col {
     flex-grow: 1;
-    flex-basis: 32vw;
+    flex-basis: 50vw;
     margin: 0;
     padding: 0;
 }
 
 #tema_3 #prototype img {
-    width: 20vw;
-    margin-left: 6vw;
+    width: 70vw;
+    margin-left: 12vw;
     margin-bottom: 2vw;
+    margin-top: 2vw;
 }
 
 #tema_3 #designsprint img {
-    width: 20vw;
-    margin-left: 6vw;
+    width: 70vw;
+    margin-left: 12vw;
     margin-bottom: 2vw;
+    margin-top: 2vw;
 }
 
 
@@ -590,10 +595,10 @@ i {
 #tema_3 .tema3_btn {
     text-decoration: none;
     color: white;
-    margin: 10vw;
+    margin: 25vw;
     text-align: center;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 1.5vw;
+    font-size: 5vw;
     padding: 1vw;
 
     border: 0.1vw dashed white;
@@ -619,14 +624,14 @@ i {
 
 #tema_4 .dark {
     width: 100%;
-    height: 350%;
+    height: 280%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 #tema_4 .wrapper {
-    width: 70vw;
-    margin: 0 15vw;
+    width: 100vw;
+    margin: 0vw;
     padding: 2vw;
 
     border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
@@ -634,7 +639,7 @@ i {
 
 }
 
-#tema_4 #groupgame{
+#tema_4 #groupgame {
     margin-top: 5vw;
 }
 
@@ -644,14 +649,14 @@ i {
 }
 
 #tema_4 #mygame img {
-    width: 50vw;
-    margin: 0 8vw 2vw;
+    width: 90vw;
+    margin-left: 3vw;
 
 }
 
 #tema_4 #groupgame img {
-    width: 50vw;
-    margin: 0 8vw 2vw;
+    width: 90vw;
+    margin-left: 3vw;
 }
 
 
@@ -662,8 +667,9 @@ i {
     color: white;
     text-align: center;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 1.5vw;
+    font-size: 5vw;
     padding: 1vw;
+
 
     border: 0.1vw dashed white;
 }
@@ -674,18 +680,20 @@ i {
     font-weight: bold;
 }
 
-#mygame_btn{
-    position: absolute;
-    left: 46%;
+#mygame_btn {
+    position: relative;
+    top: 3vw;
+    left: 35%;
 }
 
-.buttons{
-    left: 35%;
+.buttons {
+    top: 3vw;
+    left: 15%;
     position: relative;
     margin-bottom: 2vw;
 }
 
-#groupgame_btn{
+#groupgame_btn {
     margin-right: 1vw;
 }
 
@@ -702,17 +710,17 @@ i {
 
 #tema_5 .dark {
     width: 100%;
-    height: 410%;
+    height: 430%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 
 
-#tema_5 .wrapper{
+#tema_5 .wrapper {
 
-    width: 70vw;
-    margin: 0 15vw;
+    width: 100vw;
+    margin: 0vw;
     padding: 2vw;
 
     border-left: 0.1vw dashed rgba(255, 255, 255, 0.7);
@@ -720,9 +728,9 @@ i {
 
 }
 
-#tema_5 .wrapper .tema_5_redesign_pic{
-    width: 50vw;
-    margin: 2vw 8vw;
+#tema_5 .wrapper .tema_5_redesign_pic {
+    width: 95vw;
+    margin: 2vw 0.5vw;
 }
 
 .tema_5_btn {
@@ -731,10 +739,14 @@ i {
     color: white;
     text-align: center;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 1.5vw;
+    font-size: 5vw;
     padding: 1vw;
 
     border: 0.1vw dashed white;
+}
+
+#tema_5 .buttons {
+    margin-bottom: 10vw;
 }
 
 .tema_5_btn:hover {
@@ -743,27 +755,27 @@ i {
     font-weight: bold;
 }
 
-#redesign_btn{
+#redesign_btn {
     margin-right: 1vw;
 }
 
 
 
-#tema_5 .wrapper_lil{
+#tema_5 .wrapper_lil {
 
     width: 100%;
     margin: 0;
 
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 
 }
 
 #tema_5 .col {
     flex-grow: 1;
-    flex-basis: 32vw;
+    flex-basis: 50vw;
     margin: 0;
     padding: 0;
 }
@@ -772,12 +784,10 @@ i {
 
 #tema_5 .wrapper_lil .col img {
 
-    width: 30vw;
-    margin-top: 2vw;
+    width: 90vw;
+    margin: 2vw;
     padding: 0;
 }
-
-
 
 
 /*------ OVERVIEW ------*/
@@ -786,9 +796,9 @@ i {
     text-decoration: none;
     color: white;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 2vw;
+    font-size: 6vw;
     display: inline-block;
-    padding: 0vw 1vw;
+    padding: 0vw 1.3vw;
 
     border: 0.1vw dashed white;
     margin: 0.2vw;
@@ -797,6 +807,7 @@ i {
 .overview {
     list-style-type: none;
     text-align: center;
+    padding: 0;
 }
 
 .overview li {
@@ -829,19 +840,25 @@ i {
 
 #normal_nav ul {
     list-style-type: none;
+    padding: 0;
 
 
+}
+
+#normal_nav ul li {
+    border-bottom: 0.1vw solid rgba(225, 225, 225, 1);
 }
 
 #normal_nav ul li a {
     text-decoration: none;
     color: white;
     font-family: 'Reenie Beanie', cursive;
-    font-size: 2vw;
-    float: left;
+    font-size: 6vw;
+    float: center;
     text-align: center;
     display: block;
-    padding: 0vw 1vw;
+    padding: 0vw;
+    margin: 0;
 }
 
 #nav_start:hover {
@@ -907,6 +924,424 @@ i {
 
 @media only screen and (min-width: 600px) {
 
+    /*--- GENERAL STUFF ---*/
+
+    h1 {
+        text-align: center;
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 7vw;
+        margin: 0.2vw;
+
+    }
+
+
+    h2 {
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 6vw;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    p {
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+
+    b {
+        font-size: 3vw;
+    }
+
+    i {
+        font-size: 3vw;
+    }
+
+    .link {
+        font-size: 3vw;
+        text-decoration: none;
+        color: white;
+        border-bottom: 0.1vw dashed white;
+        padding-bottom: 0.1vw;
+    }
+
+
+
+
+    /*--- SPLASH ----*/
+
+    #splash {
+        font-size: 12vw;
+    }
+
+    #splash_image {
+        background-position: 80% 0%;
+    }
+
+    #splash_txt {
+        top: 15%;
+        left: 20%;
+
+        font-size: 12vw;
+
+    }
+
+
+    #splash #big_list ul {
+        width: 40vw;
+
+        margin: 0;
+        padding: 0;
+
+        top: 34vw;
+        left: 25%;
+    }
+
+
+
+    #big_list {
+        font-size: 8vw;
+    }
+
+
+
+    #splash #lil_list ul {
+        width: 20vw;
+
+        top: 35vw;
+        left: 30%;
+
+        font-size: 6vw;
+
+
+    }
+
+
+    /*--- ABOUT ME PAGE ----*/
+
+
+    #om {
+
+        background-position: 80% 0%;
+    }
+
+    #om #om_title {
+        font-size: 10vw;
+        top: 29%;
+        left: 20%;
+
+    }
+
+    #om #arrow_txt {
+
+        font-size: 4vw;
+        top: 17%;
+        left: 45%;
+
+        transform: rotate(-35deg);
+    }
+
+    #om #om_arrow {
+        width: 8vw;
+        height: 8vw;
+
+        top: 18%;
+        left: 55%;
+
+        transform: scale(1) rotate(70deg);
+    }
+
+    #om ul {
+
+        top: 65%;
+        left: 28%;
+
+    }
+    #om ul li p {
+
+        font-size: 3vw;
+
+    }
+
+    #om ul li b{
+        font-size: 5vw;
+    }
+
+
+    #om #om_txt {
+        font-size: 3vw;
+        line-height: 5vw;
+
+        width: 60%;
+        height: 50%;
+
+        top: 31%;
+        left: 22%;
+    }
+
+    #om img {
+        width: 20vw;
+        height: 20vw;
+
+        top: 15%;
+        left: 65%;
+
+    }
+
+    /*--- TEMA 2 ----*/
+
+    #tema_2 .dark {
+        height: 150%;
+    }
+
+
+    #tema_2 .wrapper {
+        width: 80vw;
+        margin: 0 10vw;
+
+        flex-wrap: wrap-reverse;
+
+
+    }
+
+    #tema_2 .col {
+        flex-grow: 1;
+        flex-basis: 32vw;
+        margin: 2vw 0;
+        padding: 0;
+    }
+
+    #tema_2 img {
+        width: 50vw;
+        margin-bottom: 2vw;
+        margin-left: 10vw;
+    }
+
+    #tema_2 a {
+
+        margin: 15vw;
+        font-size: 4vw;
+    }
+
+
+
+    /*--- TEMA 3 ---*/
+
+    #tema_3 .dark {
+        height: 620%;
+    }
+
+    #tema_3 .wrapper {
+        width: 80vw;
+        margin: 0 10vw;
+
+    }
+
+    #tema_3 #dataindsamling {
+        margin: 0 0 2vw 0;
+    }
+
+    #tema_3 .col {
+
+        flex-basis: 32vw;
+    }
+
+    #tema_3 #prototype img {
+        width: 50vw;
+        margin-left: 12vw;
+    }
+
+    #tema_3 #designsprint img {
+        width: 50vw;
+        margin-left: 12vw;
+    }
+
+    #tema_3 .container_tema_3 {
+        flex-wrap: wrap;
+    }
+
+
+    #tema_3 .tema3_btn {
+        margin: 23vw;
+        font-size: 4vw;
+    }
+
+
+
+    /*--- TEMA 4 ---*/
+
+    #tema_4 .dark {
+        width: 100%;
+        height: 350%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #tema_4 .wrapper {
+        width: 80vw;
+        margin: 0 12vw;
+    }
+
+    #tema_4 #groupgame {
+        margin-top: 10vw;
+    }
+
+
+
+    #tema_4 #mygame img {
+        width: 70vw;
+        margin-left: 3vw;
+
+    }
+
+    #tema_4 #groupgame img {
+        width: 70vw;
+        margin-left: 3vw;
+    }
+
+
+
+    .tema_4_btn {
+        font-size: 4vw;
+        padding: 1vw;
+        border: 0.1vw dashed white;
+    }
+
+
+    #mygame_btn {
+        position: absolute;
+        left: 40%;
+        top: 49%
+    }
+
+    .buttons {
+        top: 2vw;
+        left: 17%;
+        margin-bottom: 2vw;
+    }
+
+
+    /*--- TEMA 5 ---*/
+
+    #tema_5 .dark {
+        height: 510%;
+    }
+
+
+
+    #tema_5 .wrapper {
+
+        width: 80vw;
+        margin: 0 12vw;
+        padding: 2vw;
+
+    }
+
+    #tema_5 .wrapper .tema_5_redesign_pic {
+        width: 70vw;
+        margin: 2vw 3vw;
+    }
+
+    .tema_5_btn {
+        font-size: 4vw;
+    }
+
+    #tema_5 .buttons {
+        margin-bottom: 5vw;
+    }
+
+
+    #redesign_btn {
+        margin-right: 6vw;
+    }
+
+
+
+    #tema_5 .wrapper_lil {
+
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    #tema_5 .col {
+        flex-basis: 32vw;
+    }
+
+
+
+    #tema_5 .wrapper_lil .col img {
+        width: 70vw;
+        margin: 1vw 3vw;
+    }
+
+    /*--- OVERVIEW ---*/
+
+    .overview li a {
+        font-size: 4.5vw;
+    }
+
+
+    /*--- NAV BAR ---*/
+
+
+    #normal_nav ul li a {
+        font-size: 4vw;
+        float: left;
+        padding: 0vw 2vw;
+    }
+
+     #normal_nav ul li {
+        border-bottom: 0.1vw solid rgba(225, 225, 225, 0);
+    }
+
+}
+
+
+@media only screen and (min-width: 900px) {
+
+    /*--- GENERAL STUFF ---*/
+
+    h1 {
+        text-align: center;
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 4vw;
+        margin: 0.2vw;
+
+    }
+
+
+    h2 {
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 3.5vw;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    p {
+        font-size: 1.2vw;
+        line-height: 1.6vw;
+    }
+
+    b {
+        font-size: 1.2vw;
+    }
+
+    i {
+        font-size: 1.2vw;
+    }
+
+    .link {
+        font-size: 1.2vw;
+        text-decoration: none;
+        color: white;
+        border-bottom: 0.1vw dashed white;
+        padding-bottom: 0.1vw;
+    }
+
+
+
+
     /*--- SPLASH ----*/
 
     #splash {
@@ -950,13 +1385,11 @@ i {
         top: 10vw;
         left: 55%;
 
-
-    }
-
-    #lil_list {
         font-size: 3.6vw;
 
+
     }
+
 
     /*--- ABOUT ME PAGE ----*/
 
@@ -1035,8 +1468,276 @@ i {
         transform: rotate(-35deg);
     }
 
+    /*--- TEMA 2 ----*/
+
+    #tema_2 .dark {
+        height: 120%;
+    }
+
+
+    #tema_2 .wrapper {
+        width: 70vw;
+        margin: 0 15vw;
+
+        flex-wrap: nowrap;
+
+
+    }
+
+    #tema_2 .col {
+        flex-grow: 1;
+        flex-basis: 32vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    #tema_2 img {
+        width: 25vw;
+        margin-bottom: 2vw;
+        margin-left: 2vw;
+    }
+
+    #tema_2 a {
+
+        margin: 6vw;
+        font-size: 1.5vw;
+    }
+
+
+
+    /*--- TEMA 3 ---*/
+
+    #tema_3 .dark {
+        height: 560%;
+    }
+
+    #tema_3 .wrapper {
+        width: 70vw;
+        margin: 0 15vw;
+
+    }
+
+    #tema_3 #dataindsamling {
+        margin: 0 0 2vw 0;
+    }
+
+    #tema_3 .col {
+
+        flex-basis: 32vw;
+    }
+
+    #tema_3 #prototype img {
+        width: 30vw;
+        margin-left: 2vw;
+    }
+
+    #tema_3 #designsprint img {
+        width: 30vw;
+        margin-left: 2vw;
+    }
+
+    #tema_3 .container_tema_3 {
+        flex-wrap: nowrap;
+    }
+
+
+    #tema_3 .tema3_btn {
+        margin: 10vw;
+        font-size: 1.5vw;
+    }
+
+
+
+    /*--- TEMA 4 ---*/
+
+    #tema_4 .dark {
+        width: 100%;
+        height: 350%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #tema_4 .wrapper {
+        width: 70vw;
+        margin: 0 15vw;
+    }
+
+    #tema_4 #groupgame {
+        margin-top: 5vw;
+    }
+
+
+
+    #tema_4 #mygame img {
+        width: 50vw;
+        margin-left: 8vw;
+
+    }
+
+    #tema_4 #groupgame img {
+        width: 50vw;
+        margin-left: 8vw;
+    }
+
+
+
+    .tema_4_btn {
+        font-size: 1.5vw;
+        padding: 1vw;
+
+
+        border: 0.1vw dashed white;
+    }
+
+
+    #mygame_btn {
+        position: absolute;
+        left: 45%;
+        top: 49%
+    }
+
+    .buttons {
+        top: 2vw;
+        left: 34%;
+        margin-bottom: 2vw;
+    }
+
+
+    /*--- TEMA 5 ---*/
+
+    #tema_5 .dark {
+        height: 430%;
+    }
+
+
+
+    #tema_5 .wrapper {
+
+        width: 70vw;
+        margin: 0 15vw;
+        padding: 2vw;
+
+    }
+
+    #tema_5 .wrapper .tema_5_redesign_pic {
+        width: 50vw;
+        margin: 2vw 8vw;
+    }
+
+    .tema_5_btn {
+        font-size: 1.5vw;
+    }
+
+    #tema_5 .buttons {
+        margin-bottom: 5vw;
+    }
+
+
+    #redesign_btn {
+        margin-right: 1vw;
+    }
+
+
+
+    #tema_5 .wrapper_lil {
+
+        width: 100%;
+        flex-wrap: nowrap;
+
+    }
+
+    #tema_5 .col {
+        flex-basis: 32vw;
+    }
+
+
+
+    #tema_5 .wrapper_lil .col img {
+        width: 30vw;
+        margin: 1vw 0;
+    }
+
+    /*--- OVERVIEW ---*/
+
+    .overview li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2vw;
+        display: inline-block;
+        padding: 0vw 1vw;
+
+        border: 0.1vw dashed white;
+        margin: 0.2vw;
+    }
+
+    .overview {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .overview li {
+        display: inline;
+    }
+
+    #tema_3 .overview li a:hover {
+        background-color: rgba(154, 246, 47, 0.3);
+
+        font-weight: bold;
+    }
+
+    #tema_4 .overview li a:hover {
+        background-color: rgba(87, 246, 178, 0.3);
+
+        font-weight: bold;
+    }
+
+
+
+
+    /*--- NAV BAR ---*/
+
+    #normal_nav {
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        width: 100vw;
+
+    }
+
+    #normal_nav ul {
+        list-style-type: none;
+
+
+    }
+
+    #normal_nav ul li {
+        border-bottom: 0.1vw solid rgba(225, 225, 225, 0);
+    }
+
+    #normal_nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 2vw;
+        float: left;
+        text-align: center;
+        display: block;
+        padding: 0vw 1vw;
+    }
+
+    #nav_start:hover {
+        color: #e55757;
+    }
+
+    #nav_om:hover {
+        color: #ee7320;
+    }
+
+    #nav_projects:hover {
+        color: #fcc21b;
+    }
+
 
 }
 
 
-}
