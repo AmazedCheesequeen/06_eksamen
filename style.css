@@ -68,6 +68,7 @@ i {
     height: 11.94vw;
     background-size: cover;
     left: 1%;
+    cursor: pointer;
 
 }
 
@@ -484,6 +485,7 @@ i {
     text-align: center;
 
     font-family: 'Reenie Beanie', cursive;
+    cursor: pointer;
 }
 
 #tema_2_btn {
@@ -969,15 +971,15 @@ i {
 
 /*------ ANIMATIONS ------*/
 
-.click_link {
-    animation-name: clickLink_kf;
+.hover {
+    animation-name: hover_kf;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     animation-fill-mode: both;
 }
 
-@keyframes clickLink_kf {
+@keyframes hover_kf {
 
     from {
         transform: scale(1);
@@ -985,29 +987,30 @@ i {
 
     to {
 
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 }
 
-.img_in {
-    animation-name: imgIn_kf;
-    animation-duration: 3s;
+.hover_no_more {
+    animation-name: hover_no_kf;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in-out;
     animation-fill-mode: both;
 }
 
-@keyframes imgIn_kf {
+@keyframes hover_no_kf {
 
     from {
-        transform: rotate(0deg);
+        transform: scale(1.2);
     }
 
     to {
 
-        transform: rotate(360deg);
+        transform: scale(1);
     }
 }
+
 
 
 
