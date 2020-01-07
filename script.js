@@ -86,7 +86,7 @@ function sendToTema2() {
     btnTema2.classList.remove("hover_no_more");
     btnTema2.classList.remove("hover");
 
-    window.location.pathname = '/tema2.html';
+    window.location.pathname = 'kea/portfolio/tema2.html';
 }
 
 function sendToTema3() {
@@ -96,7 +96,7 @@ function sendToTema3() {
     btnTema3.classList.remove("hover_no_more");
     btnTema3.classList.remove("hover");
 
-    window.location.pathname = '/tema3.html';
+    window.location.pathname = 'kea/portfolio/tema3.html';
 }
 
 function sendToTema4() {
@@ -106,7 +106,7 @@ function sendToTema4() {
     btnTema4.classList.remove("hover_no_more");
     btnTema4.classList.remove("hover");
 
-    window.location.pathname = '/tema4.html';
+    window.location.pathname = 'kea/portfolio/tema4.html';
 }
 
 function sendToTema5() {
@@ -116,7 +116,7 @@ function sendToTema5() {
     btnTema5.classList.remove("hover_no_more");
     btnTema5.classList.remove("hover");
 
-    window.location.pathname = '/tema5.html';
+    window.location.pathname = 'kea/portfolio/tema5.html';
 }
 
 
